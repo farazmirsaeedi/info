@@ -56,6 +56,9 @@ body{
 .rezsh{
     top: 98px;
 }
+.rezr{
+    top: 127px; 
+}
 @media only screen and (max-width:600px){
     .h1div{
         height: 138px;
