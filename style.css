@@ -4,15 +4,18 @@ body{
     box-sizing: border-box;
     background-image: url(./wall.jpg);
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    min-height: 100vh;
+    
+    align-items: center;
+    flex-direction: column;
 }
 .faraz{
     text-align: center;
     color: #cde1db;
     display: inline;
-    opacity: 1!important;
-    position: absolute;
-    top: -9px;
+   
+    
    
     font-size:60px;
 }
@@ -22,9 +25,10 @@ body{
     border-radius: 15px;
     background-color:  #666666;
     margin-top: 30px;
-    opacity: .6;
+    margin-bottom: 30px;
+   
     display: flex;
-    position: relative;
+    
     align-items: center;
     justify-content: center;
 }
@@ -34,43 +38,42 @@ body{
     height: 300px;
     border-radius: 15px;
     background-color:  #666666;
-    top: 140px;
+    box-sizing: inherit;
     opacity: .9;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding-top: 20pxs;
+    padding-top: 20px;
     
-    position:absolute;
+    
 }
 .rez-abs{
-    position: absolute;
+    margin-top: 0px;
 }
 .rez{
     font-size: 20px;
     text-decoration: none;
     color: aqua;
 }
-.rezs{
-    top: 67px;
-}
-.rezsh{
-    top: 98px;
-}
-.rezr{
-    top: 127px; 
-}
+
 @media only screen and (max-width:600px){
+  
     .h1div{
-        height: 138px;
-        width: 600px;
-        /* left: 20px; */
-        
+        width: 350px;
     }
     .faraz{
-        /* left: 35px; */
+        /* width: 90%; */
+        font-size: 2.8rem;
     }
+  
     .main{
-        top: 200px;
+       
         width: 350px;
+        min-height:50%;
+        height: auto;
+        padding: 20px;
+        box-sizing: inherit;
+        
     }
 }
