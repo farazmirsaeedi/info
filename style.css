@@ -6,6 +6,8 @@ body{
     display: flex;
     /* justify-content: center; */
     min-height: 100vh;
+    gap: 1.5rem;
+    padding: 1.5rem 0 0 0;;
     
     align-items: center;
     flex-direction: column;
@@ -19,13 +21,28 @@ body{
    
     font-size:60px;
 }
+#time{
+background-color: #666666;
+width: 440px;
+height: 60px;
+border-radius: 15px;
+color: #cde1db;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+}
 .h1div{
     width: 440px;
     height: 69px;
     border-radius: 15px;
     background-color:  #666666;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
    
     display: flex;
     
@@ -61,6 +78,10 @@ body{
   
     .h1div{
         width: 350px;
+    }
+    #time{
+        width: 350px;
+
     }
     .faraz{
         /* width: 90%; */
